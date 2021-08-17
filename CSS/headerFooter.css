@@ -1,0 +1,41 @@
+header{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	z-index: 2;
+}
+.top-line{
+	display:flex;
+	color:#CCC;
+	padding:8px;
+	background:linear-gradient(45deg, rgb(151, 146, 146)20%, rgb(49, 41, 41)0%);
+	justify-content: flex-end;
+}
+
+.top-content{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 100px;
+	background: rgba(27, 44, 9, 0.7);
+	align-items: center;
+	text-align: center;
+	justify-items: center;
+}
+
+.top-content a{
+	text-decoration: none;
+	color: cornsilk;
+	background: rgb(151, 146, 146);
+	padding: 10px;
+	width: 100px;
+}
+footer{
+    position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:linear-gradient(45deg, rgb(151, 146, 146)60%, rgb(49, 41, 41)0%);
+	padding:8px;
+}
